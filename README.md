@@ -69,7 +69,7 @@ Make sure to get the right ```chromedriver``` for your system [from here](https:
 ### Start
 
 ```bash
-1. git clone https://github.com/timgrossmann/InstaPy.git
+1. git clone https://github.com/jacktator/InstaPy.git
 2. cd InstaPy
 3. pip install .
 or
