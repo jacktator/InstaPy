@@ -2,6 +2,7 @@ from instapy import InstaPy
 
 #if you don't provide arguments, the script will look for INSTA_USER and INSTA_PW in the environment
 
+# session = InstaPy(username=INSTA_USER, password=INSTA_PW, nogui=True)
 session = InstaPy(nogui=True)
 session.login()
 
@@ -11,7 +12,7 @@ session.set_sleep_reduce(95)
 
 #likes specified amount of posts for each hashtag in the array (the '#' is optional)
 #in this case: 100 dog-posts and 100 cat-posts
-session.like_by_tags(['#ethereal_moods', '#fairy', '#annoyingfairy', '#stylediaries', '#reading', '#visualoflife', '#openmyworld', '#inspiration', '#workhard', '#workharder', '#pinkmood', '#pinkmoodstyle', '#autumnmood', '#darkart', '#darkatmosphere', '#mondaymood ', '#happytimes ', '#visualoflife ', '#openmyworld ', '#bleachmyfilm ', '#picoftheday ', '#makestories ', '#breakdown ', '#shootaward ', '#stylediarie'], amount=100)
+session.like_by_tags(['#romeandyou','#autumnmood','#autumn','#herbststimmung','#darknature','#darkart','#darkatmosphere','#darkphotography','#melancholy','#darkmood','#beautifuldarkness','#shadeofblack','#photoart','#ig_artistry','#architecture','#buildings','#architexture','#city','#buildings','#urban','#design','#minimal','#cities','#town','#perspective','#cityscape','#citybestpictures','#estheticlabel','#bestcitybreaks','#amesterdamview','#vscoaward','#moodygrams','#ig_powerclub','#creatandcapture','#beautifuldestinations'], amount=3)
 
 #likes specified amount of posts for each location in the array
 #in this case: 100 posts geotagged at the chrysler building and 100 posts geotagged at the salton sea
